@@ -1,0 +1,45 @@
+{
+  "title": "Application Settings Category",
+  "add": {
+    "adButton": "Add Category"
+  },
+  "edit": {
+    "popup": {
+      "title": "Edit Application Settings Category"
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "description": "Description",
+        "id": "Id"
+      }
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "create": {
+    "popup": {
+      "title": "Add New Application Settings Category"
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "description": "Description"
+      }
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "grid": {
+    "row": {
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "actions": "Actions"
+    }
+  }
+}

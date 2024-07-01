@@ -1,0 +1,29 @@
+{
+    "id": "Id",
+    "inserted-date": "Kayıt tarihi",
+    "ip-address": "Bağlantı adresi",
+    "hostname": "Sunucu adı",
+    "mac-address": "MAC Adresi",
+    "application-username": "Uygulama kullanıcı adı",
+    "os-name": "İşletim sistemi adı",
+    "browser-detail": "Tarayıcı detayı",
+    "status": "Durum",
+    "email-notification":{
+        "title":"E-posta Bildirimleri",
+        "id":"No",
+        "subject":"Konu",
+        "from":"Kimden",
+        "to":"Kime",
+        "body":"İçerik",
+        "isSent":"Gönderim Durumu",
+        "sentDate":"Gönderim Tarihi",
+        "createdDate":"Oluşturulma Tarihi",
+        "success":"Gönderim başarılı.",
+        "notSuccess":"Gönderim başarısız."
+    },
+    "close":"Kapat",
+    "informationPopup":  {
+        "title":"Daha önce gönderilmiş e-posta",
+        "notSent":"E-posta daha önce gönderilmiştir!"
+    }
+}

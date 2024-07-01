@@ -1,0 +1,21 @@
+.oneframe-modal-title {
+    padding: 25px !important;
+
+    h2 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 1;
+    }
+}
+
+.oneframe-modal-body {
+    background: $body-bg;
+    padding: 50px !important;
+    border-top: 1px solid #e1e6ed;
+    border-bottom: 1px solid #e1e6ed;
+    transition: 300ms all;
+}
+
+.oneframe-modal-footer {
+    padding: 25px !important;
+}

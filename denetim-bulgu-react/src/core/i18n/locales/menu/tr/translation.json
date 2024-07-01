@@ -1,0 +1,52 @@
+{
+  "DASHBOARD": {
+    "TITLE": "Anasayfa"
+  },
+  "USERSMANAGEMENT": {
+    "TITLE": "Kullanıcı Yönetimi",
+    "CHILD": {
+      "USERS": {
+        "TITLE": "Kullanıcılar"
+      },
+      "USERCLAIMS": {
+        "TITLE": "Kullanıcı Yönetimi"
+      }
+    }
+  },
+  "ROLESMANAGEMENT": {
+    "TITLE": "Rol Yönetimi",
+    "CHILD": {
+      "ROLES": {
+        "TITLE": "Roller"
+      },
+      "ROLESCLAIMS": {
+        "TITLE": "Rol Yönetimi"
+      }
+    }
+  },
+  "LAYOUTS": {
+    "TITLE": "Şablonlar",
+    "CHILD": {
+      "TEMPLATE1": {
+        "TITLE": "Şablon 1"
+      },
+      "TEMPLATE2": {
+        "TITLE": "Şablon 2"
+      },
+      "TEMPLATE3": {
+        "TITLE": "Şablon 3"
+      }
+    }
+  },
+  "REPORTS": {
+    "TITLE": "Raporlar",
+    "CHILD": {
+      "LOGINAUDITLOG": {
+        "TITLE": "Giriş Denetim Günlüğü"
+      }
+    }
+  },
+   "APPLICATIONSETTINGSCATEGORY": {
+    "TITLE": "Uygulama Ayar Kategorileri"
+  }
+}

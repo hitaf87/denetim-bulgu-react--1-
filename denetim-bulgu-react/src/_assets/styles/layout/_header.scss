@@ -1,0 +1,70 @@
+#Header {
+    width: 100% !important;
+    background-color: #fff;
+    height: 75px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.10);
+    padding: 10px 25px;
+
+    .selectLang{
+        .MuiInputBase-root{
+            height: 33px !important;
+            font-size: 14px !important;
+        }
+    }
+    .left{
+        position: relative;
+        width: auto;
+        float: left;
+        text-align: left;
+        padding: 10px 0px;
+        .menuIcon{
+            font-size: 28px !important;
+            border:none !important;
+        }
+        .logo{
+            position: relative;
+            float: left;
+            margin: 0px 15px;
+            img{
+                border: none;
+                max-height: 28px !important;
+            }
+            svg{
+                border: none;
+                max-height: 28px !important;
+            }
+        }
+    }
+    .right{
+        position: relative;
+        width: auto;
+        float: right;
+        text-align: right;
+    }
+
+    .drawerHtmlDiv{
+        width: 100% !important;
+        overflow: hidden;
+        float: left;
+        position: relative;
+        .profileImage{
+            position: relative;
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: $brand;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 100px;
+            font-size: 55px;
+            color: #fff;
+        }
+        .profileText{
+            position: relative;
+            width: auto;
+            float: left;
+            margin-left:15px;
+            text-align: left;
+        }
+    }
+}

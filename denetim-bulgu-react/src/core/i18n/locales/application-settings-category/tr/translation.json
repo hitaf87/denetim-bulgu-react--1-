@@ -1,0 +1,45 @@
+{
+  "title": "Uygulama Ayar Kategorileri",
+  "add": {
+    "adButton": "Yeni Kategori Ekle"
+  },
+  "edit": {
+    "popup": {
+      "title": "Uygulama Ayar Kategori Düzenle"
+    },
+    "form": {
+      "labels": {
+        "name": "Kategori Adı",
+        "description": "Açıklama",
+        "id": "Id"
+      }
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    }
+  },
+  "create": {
+    "popup": {
+      "title": "Yeni Kategori Ekle"
+    },
+    "form": {
+      "labels": {
+        "name": "Adı",
+        "description": "Açıklama"
+      }
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    }
+  },
+  "grid": {
+    "row": {
+      "id": "No",
+      "name": "Kategori Adı",
+      "description": "Açıklama",
+      "actions": "Aksiyonlar"
+    }
+  }
+}

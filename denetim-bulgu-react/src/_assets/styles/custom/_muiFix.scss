@@ -1,0 +1,21 @@
+[class^='Mui'] {
+    font-family: $font-poppins !important;
+}
+
+.MuiMenuItem-root {
+    font-size: 12px !important;
+    padding: 10px 15px !important;
+
+    a {
+        color: #3d3d3d;
+    }
+}
+
+.MuiList-padding {
+    padding: 0 !important;
+}
+
+.MuiDrawer-paper {
+    width: 300px;
+    padding: 40px;
+}

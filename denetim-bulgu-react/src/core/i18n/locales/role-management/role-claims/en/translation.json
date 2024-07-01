@@ -1,0 +1,8 @@
+{
+  "title": "Role Management",
+  "form":{
+    "labels":{
+      "roles":"Roles"
+    }
+  }
+}

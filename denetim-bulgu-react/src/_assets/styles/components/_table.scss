@@ -1,0 +1,39 @@
+.custom-head {
+    background: white;
+    box-shadow: 0 1.2px 3.2px 0 rgba(0, 0, 0, 0.1);
+    min-height: 50px;
+}
+
+.custom-footer {
+    background: white;
+    min-height: 50px;
+}
+
+.custom-row {
+    background: white;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.13), 0 1px 3px 1px rgba(60, 64, 67, 0.015);
+    margin-bottom: 1px;
+}
+.custom-ui {
+    text-align: center;
+    width: 500px;
+    padding: 40px;
+    background: #28bae6;
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.23);
+    color: #fff;
+}
+
+.custom-ui > h1 {
+    margin-top: 0;
+}
+
+.custom-ui > button {
+    width: 160px;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 10px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-size: 12px;
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Uygulama Ayarları",
+  "add": {
+    "adButton": "Yeni Ayar Ekle"
+  },
+  "edit": {
+    "popup": {
+      "title": "Uygulama Ayarı Düzenle"
+    },
+    "form": {
+      "labels": {
+        "key": "Anahtar Kelime",
+        "value": "Değer",
+        "id": "Id"
+      }
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    }
+  },
+  "create": {
+    "popup": {
+      "title": "Yeni Uygulama Ayarı Ekle"
+    },
+    "form": {
+      "labels": {
+        "key": "Anahtar Kelime",
+        "value": "Değer",
+        "valueType": "Değer Tipi",
+        "categoryId": "Kategori",
+        "isStatic": "Statik mi",
+        "selectItem": "Seçiniz..."
+      }
+    }
+  },
+  "grid": {
+    "row": {
+      "id": "No",
+      "key": "Anahtar Kelime",
+      "value": "Değer",
+      "valueType": "Değer Tipi",
+      "isStatic": "Statik Mi",
+      "categoryName": "Kategori Adı",
+      "actions": "Aksiyonlar"
+    }
+  },
+  "data":{
+    "static":"Statik",
+    "notStatic":"Statik Değil"
+   },
+   "informationPopup":  {
+     "title":"Statik",
+     "notDeleteStatic":"Statik veri silenemez!"
+   }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Roller",
+  "add": {
+    "adButton": "Yeni Rol Ekle"
+  },
+  "edit": {
+    "popup": {
+      "title": "Rol Düzenle"
+    },
+    "form": {
+      "labels": {
+        "name": "İsim",
+        "surname": "Soyisim",
+        "phonenumber": "Telefon Numarası",
+        "email": "E-Posta",
+        "password": "Şifre",
+        "displayText": "Görünür metin",
+        "description": "Açıklama"
+      }
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    }
+  },
+  "create": {
+    "popup": {
+      "title": "Yeni Rol Ekle"
+    },
+    "form": {
+      "labels": {
+        "name": "İsim",
+        "displayText": "Görünür metin",
+        "description": "Açıklama"
+      }
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    }
+  },
+  "grid": {
+    "row": {
+      "name": "Rol Adı",
+      "description": "Açıklama",
+      "displaytext": "Başlık"
+    }
+  }
+}

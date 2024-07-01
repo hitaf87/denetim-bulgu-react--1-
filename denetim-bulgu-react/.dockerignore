@@ -1,0 +1,11 @@
+# Hariciler
+**/Dockerfile*
+**.dockerignore*
+**.docker
+*.md
+.git
+.node_modules
+.gitignore
+.gitlab-ci.yml
+.editorconfig
+*/build/

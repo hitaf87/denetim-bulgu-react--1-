@@ -1,0 +1,49 @@
+{
+  "title": "Roles",
+  "add": {
+    "adButton": "Add Role"
+  },
+  "edit": {
+    "popup": {
+      "title": "Edit Role"
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "surname": "Surname",
+        "phonenumber": "Phone Number",
+        "email": "Email",
+        "password": "Password",
+        "displayText": "Display Text",
+        "description": "Description"
+      }
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "create": {
+    "popup": {
+      "title": "Add New Role"
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "displayText": "Display Text",
+        "description": "Description"
+      }
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "grid": {
+    "row": {
+      "name": "Name",
+      "description": "Description",
+      "displaytext": "Display Text"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+@import 'config';
+
+body {
+    color: #464e5f;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    overflow-x: hidden;
+    position: relative;
+    font-style: normal;
+    font-family: $font-poppins;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    p {
+        color: #464e5f;
+    }
+
+    a {
+        color: #464e5f;
+
+        &:hover {
+            color: #464e5f;
+        }
+    }
+}
+.isDisplay {
+    display: none !important;
+}
+
+html {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+#root {
+    min-height: 100%;
+    display: flex;
+    flex-grow: 1;
+
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        height: 100%;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color:$sidebar_bg;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: $brand;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $text-color1;
+    line-height: 1;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+
+    &.underline {
+        margin-bottom: 0;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 3px;
+            left: 0;
+            top: calc(100% + 10px);
+            background: #364658;
+        }
+
+        &.white {
+            color: white;
+
+            &:after {
+                background: white;
+            }
+        }
+    }
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+.wrapper {
+    padding: 20px;
+}

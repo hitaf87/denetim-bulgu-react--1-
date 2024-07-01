@@ -1,0 +1,33 @@
+.custom-tooltip {
+    background: white;
+    border-radius: 4px;
+    color: $text-color1;
+    padding: 5px;
+
+    > .tooltip-fav {
+        font-size: 10px;
+        font-weight: bold;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        letter-spacing: 1px;
+
+        i {
+            margin-right: 5px;
+        }
+    }
+
+    .tooltip-count {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 0;
+        flex-direction: column;
+
+        > .text {
+            font-size: 10px;
+        }
+
+        > .number {
+            font-size: 20px;
+        }
+    }
+}

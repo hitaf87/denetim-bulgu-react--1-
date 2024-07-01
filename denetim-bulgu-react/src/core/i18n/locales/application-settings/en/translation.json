@@ -1,0 +1,56 @@
+{
+  "title": "Application Settings",
+  "add": {
+    "adButton": "Add Application Settings"
+  },
+  "edit": {
+    "popup": {
+      "title": "Edit Application Settings"
+    },
+    "form": {
+      "labels": {
+        "key": "Key",
+        "value": "Value",
+        "id": "Id"
+      }
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "create": {
+    "popup": {
+      "title": "Add New Application Settings"
+    },
+    "form": {
+      "labels": {
+        "key": "Key",
+        "value": "Value",
+        "valueType": "Value Type",
+        "categoryId": "Category",
+        "isStatic": "Is Static",
+        "selectItem": "Select Item..."
+      }
+    }
+  },
+  "grid": {
+    "row": {
+      "id": "Id",
+      "key": "Key",
+      "value": "Value",
+      "valueType": "Value Type",
+      "isStatic": "Is Static",
+      "categoryName": "Category Name",
+      "actions": "Actions"
+    }
+  },
+"data":{
+ "static":"Static",
+ "notStatic":"Not Static"
+},
+"informationPopup":  {
+  "title":"Static",
+  "notDeleteStatic":"Dont delete static data!"
+}
+}

@@ -1,0 +1,8 @@
+package.json
+  - "isomorphic-fetch": "^2.2.1",  Axios kurulduktan sonra bunu kaldırabiliriz.
+  - core içindeki module'ler core/index.tsx ile export edilirse daha temiz bir yapı olur. Böylece import edenler sadece import {xx} from './core' diyebilirler.
+  - .documentation içindeki dosyaların bir çoğu gözden geçirilmeli. Böyle dokümantasyon yazıp bakım maliyetini arttırmaktansa, kullanılan paketlerin dokümantasyon sayfalarına link verilebilir. Translation için i18 gibi.
+  - folder structure için bir dokümantasyon
+  - _assests klasörüne dokunamadım. css'ler buradan geliyor. Bunları public altına alırsak derlemede sıkıntı çıkabilir.
+  - logo svg olduğu için /src/_assests/images klasörü altında bıraktım. Diğer türlü direkt svg kullanılamıyor.
+  - App.tsx üzerindeki route standardı da projedeki gibi xx-yy haline getirilmeli. Bütünlük açısından.

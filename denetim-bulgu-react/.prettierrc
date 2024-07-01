@@ -1,0 +1,12 @@
+{
+  "arrowParens": "avoid",
+  bracketSpacing: true,
+  "printWidth": 150,
+  "tabWidth": 4,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "jsxBracketSameLine": true,
+  "semi": true,
+  "importOrder": ["^@core/(.*)$", "^@src/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderSeparation": true
+}

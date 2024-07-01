@@ -1,0 +1,41 @@
+{
+  "title": "Kullanıcılar",
+  "add":{
+    "adButton":"Kullanıcı Ekle"
+  },
+  "edit": {
+    "popup": {
+      "title": "Kullanıcı Ekle"
+    },
+    "redirect":{
+      "tab":{
+        "userinfomanagement":"Kullanıcı bilgileri yönetimi",
+        "userrolemanagement":"Rol yönetimi"
+      }
+    },
+    "form": {
+      "labels": {
+        "name": "İsim",
+        "surname": "Soyisim",
+        "phonenumber": "Telefon Numarası",
+        "email": "E-Posta",
+        "password": "Şifre",
+        "isactive": "Aktif",
+        "islock":"Pasif"
+      }
+    },
+    "buttons": {
+      "save": "Kaydet",
+      "cancel": "İptal"
+    }
+  },
+  "grid": {
+    "row":{
+      "username":"Kullanıcı Adı",
+      "name":"İsim",
+      "surname":"Soyisim",
+      "email":"E-Posta",
+      "actions":"İşlemler"
+    }
+  }
+}

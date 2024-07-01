@@ -1,0 +1,6 @@
+{
+  "logout": "Logout",
+  "header": "Warning",
+  "warning-text": "Your session is about to expire in {{seconds}} seconds. Please 'Stay Logged In' button to continue.",
+  "keep-logged-in": "Keep Logged In"
+}

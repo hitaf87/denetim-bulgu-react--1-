@@ -1,0 +1,44 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+//Bootstrap
+@import '~bootstrap-scss/bootstrap';
+
+//fonts
+@import "./icons/fonts/flaticon/flaticon";
+@import "./icons/fonts/flaticon2/flaticon";
+
+
+// Variables
+@import 'var';
+
+// Helper css class
+@import 'helper';
+
+// Reset / Global Style
+@import 'reset';
+@import 'global';
+
+// Commont style
+@import 'common';
+
+// Pages
+@import 'pages/auth';
+@import 'pages/home';
+
+
+// Components
+@import 'layout';
+@import 'components/toastMessages';
+@import 'components/table';
+@import 'components/customTooltip';
+@import 'components/unselect-select.scss';
+
+// 3th customization
+@import 'custom/button';
+@import 'custom/modal';
+@import 'custom/muiFix';
+
+//layout
+@import 'layout/header';

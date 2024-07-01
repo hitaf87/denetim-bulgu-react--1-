@@ -1,0 +1,155 @@
+@keyframes drift {
+    from {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+.login-container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    overflow: hidden;
+
+    .login-form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include media-breakpoint-down(lg) {
+            padding: 0 40px;
+        }
+
+        @include media-breakpoint-down(md) {
+            padding: 0 40px 0 25px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: 0;
+            margin-left: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .form-area {
+            width: 100%;
+            max-width: 400px;
+            //box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+            //box-shadow: 0 2px 1px -1px rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 1px 3px 0 rgba(0,0,0,0.12);
+            padding: 40px;
+            border-radius: 4px;
+            //border: 1px solid #dadce0;
+
+            @include media-breakpoint-down(sm) {
+                padding: 20px;
+                box-shadow: none;
+                border: none;
+            }
+
+            .form-title {
+                padding-bottom: 25px;
+
+                h3 {
+                    position: relative;
+                    font-size: 35px;
+                    -webkit-font-smoothing: subpixel-antialiased;
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 30px;
+                        margin-bottom: 50px;
+                    }
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        height: 2px;
+                        width: 60px;
+                        background: $color-blue;
+                        top: 50px;
+                    }
+
+                    &:after {
+                        content: attr(data-title);
+                        position: absolute;
+                        left: 65px;
+                        top: 40px;
+                        font-size: 12px;
+                        text-transform: lowercase;
+                        letter-spacing: 5px;
+                    }
+                }
+
+                h5 {
+                    font-size: 15px;
+                    text-transform: lowercase;
+                    letter-spacing: 5px;
+                }
+            }
+
+            > .form {
+                max-width: 100%;
+
+                .form-field {
+                    &.captcha {
+                        background: #f9f9f9;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 5px 0;
+                        border-radius: 3px;
+                    }
+
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.social-button-area {
+    &:nth-child(1) {
+        button {
+            @include border-right-radius(0);
+        }
+    }
+
+    &:nth-child(2) {
+        button {
+            @include border-left-radius(0);
+        }
+    }
+}
+
+.has-line {
+    display: flex;
+    align-items: center;
+
+    &:before {
+        margin-right: 15px;
+    }
+
+    &:after {
+        margin-left: 15px;
+    }
+
+    &:before,
+    &:after {
+        content: '';
+        display: block;
+        height: 1px;
+        flex-grow: 1;
+        background-color: rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+}

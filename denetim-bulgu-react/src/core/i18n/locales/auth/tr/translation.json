@@ -1,0 +1,28 @@
+{
+  "log-out": "Çıkış yap",
+  "form": {
+    "labels": {
+      "email": "E-posta Adresi",
+      "password": "Parola",
+      "remember-me": "Beni hatırla",
+      "validation-code": "Doğrulama Kodu",
+      "remain-time": "Kalan Süre",
+      "second": "sn",
+      "authenticator-info-message": "Aşağıdaki barkodu telefonunuzdaki Google ya da Microsoft authenticator uygulaması ile okutunuz",
+      "two-factor-title": "2 Faktörlü Doğrulama",
+      "two-factor-type": "Doğrulama Şekli",
+      "two-factor-phone-number": "Doğrulama kodu telefonunuza mesaj olarak gönderildi"
+    },
+    "buttons": {
+      "login": "Giriş",
+      "back-to-login": "Giriş ekranına dön",
+      "validate": "Doğrula",
+      "resend": "Tekrar Gönder"
+    },
+    "forget-password": "Şifremi unuttum",
+    "sign-up": {
+      "text": "Üye değil misin?",
+      "link": "Üye ol"
+    }
+  }
+}

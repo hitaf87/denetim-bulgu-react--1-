@@ -1,0 +1,41 @@
+{
+  "title": "Users",
+  "add": {
+    "adButton": "Add User"
+  },
+  "edit": {
+    "popup": {
+      "title": "Add New User"
+    },
+    "redirect":{
+      "tab":{
+        "userinfomanagement":"User Info Management",
+        "userrolemanagement":"User Role Management"
+      }
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "surname": "Surname",
+        "phonenumber": "Phone Number",
+        "email": "Email",
+        "password": "Password",
+        "isactive": "Is Active",
+        "islock":"Is Lock"
+      }
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "grid": {
+    "row": {
+      "username": "UserName",
+      "name": "Name",
+      "surname": "Surname",
+      "email": "Email",
+      "actions": "Actions"
+    }
+  }
+}

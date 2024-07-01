@@ -1,0 +1,6 @@
+{
+  "logout": "Çıkış Yap",
+  "header": "Uyarı",
+  "warning-text": "Oturumunuz {{seconds}} saniye içerisinde sonlanacak. Devam etmek için 'Oturumu Sürdür' butonuna basınız",
+  "keep-logged-in": "Oturumu Sürdür"
+}

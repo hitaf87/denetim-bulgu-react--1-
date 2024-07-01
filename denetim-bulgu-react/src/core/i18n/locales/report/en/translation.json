@@ -1,0 +1,29 @@
+{
+    "id": "Id",
+    "inserted-date": "Inserted date",
+    "ip-address": "IP address",
+    "hostname": "Host name",
+    "mac-address": "MAC Address",
+    "application-username": "Application username",
+    "os-name": "OS name",
+    "browser-detail": "Browser detail",
+    "status": "Status",
+    "email-notification":{
+        "title":"Email Notifications",
+        "id":"No",
+        "subject":"Subject",
+        "from":"From",
+        "to":"To",
+        "body":"Body",
+        "isSent":"Sending Status",
+        "sentDate":"Sent Date",
+        "createdDate":"Created Date",
+        "success":"Send succesfully.",
+        "notSuccess":"Send unsuccesfully."
+    },
+    "close":"Close",
+    "informationPopup":  {
+        "title":"Already Sent",
+        "notSent":"Email already sent!"
+    }
+}

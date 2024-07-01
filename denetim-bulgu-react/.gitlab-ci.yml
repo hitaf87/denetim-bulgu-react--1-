@@ -1,0 +1,21 @@
+image: node
+ 
+stages:
+  - build
+  # - test
+
+build:
+  stage: build
+  script: 
+    - echo "Start building App"
+    - npm install --legacy-peer-deps
+    - CI=false npm run build
+    - echo "Build successfully!"
+
+# test:
+#   stage: test
+#   script:
+#     - echo "Testing App"
+#     - npm install
+#     - CI=true npm test
+#     - echo "Test successfully!"

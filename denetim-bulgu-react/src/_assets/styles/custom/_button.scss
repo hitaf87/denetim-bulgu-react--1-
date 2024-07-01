@@ -1,0 +1,72 @@
+@mixin color_button($color, $color_background, $height, $radius, $font: '12px') {
+    background: $color_background !important;
+    color: $color !important;
+    height: $height !important;
+    font-weight: bold !important;
+    outline: none !important;
+    font-size: $font !important;
+    border-radius: $radius !important;
+    text-transform: none !important;
+    padding: 0 20px !important;
+    //
+
+    span {
+        > .MuiCircularProgress-colorPrimary {
+            color: $color !important;
+        }
+    }
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+            rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+            rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.12) 0px 2px 5px 0px;
+        //background: darken($color_background, 10%) !important;
+    }
+
+    &:disabled {
+        //background: lighten($color_background, 15%) !important;
+    }
+
+    &.outline {
+        background: transparent !important;
+        border: 2px solid $color_background !important;
+        color: $color_background !important;
+
+        &:hover {
+            background: $color_background !important;
+            color: $color !important;
+        }
+    }
+
+    &.text-transform-none {
+        text-transform: none !important;
+    }
+}
+
+.custom-button-blue-50 {
+    @include color_button(white, $color-blue, 50px, 4px);
+}
+
+.custom-button-blue-40 {
+    @include color_button(white, $color-blue, 40px, 4px, 11px);
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+.custom-button-white-30 {
+    @include color_button($text-color2, white, 30px, 4px, 11px);
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,
+        rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(60, 66, 87, 0.12) 0px 2px 5px 0px;
+}
+
+.custom-social-button-facebook {
+    @include color_button(white, #0950c1, null, null);
+    font-size: 11px !important;
+}
+
+.custom-social-button-twitter {
+    @include color_button(white, #1995e0, null, null);
+    font-size: 11px !important;
+}

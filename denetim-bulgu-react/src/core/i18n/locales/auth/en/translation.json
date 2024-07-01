@@ -1,0 +1,28 @@
+{
+  "log-out": "Log out",
+  "form": {
+    "labels": {
+      "email": "Email Address",
+      "password": "Password",
+      "remember-me": "Remember Me",
+      "validation-code": "Validation Code",
+      "remain-time": "Remain Time",
+      "second": "sec",
+      "authenticator-info-message": "Read the barcode below with the Google or Microsoft authenticator application on your phone",
+      "two-factor-title": "2 Factor Authentication",
+      "two-factor-type": "Validation Type",
+      "two-factor-phone-number": "We've sent a text message with a verification code to your phone"
+    },
+    "buttons": {
+      "login": "Login",
+      "back-to-login": "Back to login",
+      "validate": "Validate",
+      "resend": "Resend"
+    },
+    "forget-password": "Forget Password",
+    "sign-up": {
+      "text": "Not a member?",
+      "link": "Sign up now!"
+    }
+  }
+}

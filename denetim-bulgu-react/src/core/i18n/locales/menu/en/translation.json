@@ -1,0 +1,54 @@
+{
+  "DASHBOARD": {
+    "TITLE": "Dashboard"
+  },
+  "USERSMANAGEMENT": {
+    "TITLE": "User Management",
+    "CHILD": {
+      "USERS": {
+        "TITLE": "Users"
+      },
+      "USERCLAIMS": {
+        "TITLE": "User Claims"
+      }
+    }
+  },
+  "ROLESMANAGEMENT": {
+    "TITLE": "Role Management",
+    "CHILD": {
+      "ROLES": {
+        "TITLE": "Roles"
+      },
+      "ROLESCLAIMS": {
+        "TITLE": "Role Claims"
+      }
+    }
+  },
+  "LAYOUTS": {
+    "TITLE": "Layouts",
+    "CHILD": {
+      "TEMPLATE1": {
+        "TITLE": "Template 1"
+      },
+      "TEMPLATE2": {
+        "TITLE": "Template 2"
+      },
+      "TEMPLATE3": {
+        "TITLE": "Template 3"
+      }
+    }
+  },
+  "REPORTS": {
+    "TITLE": "Reports",
+    "CHILD": {
+      "LOGINAUDITLOG": {
+        "TITLE": "Login Audit Log"
+      }
+    }
+  },
+  "APPLICATIONSETTINGSCATEGORY": {
+    "TITLE": "Application Setting Category"
+  }
+}
+
+
